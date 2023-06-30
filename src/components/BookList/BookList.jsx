@@ -24,7 +24,7 @@ const BookList = () => {
 
   return (
     <section className='booklist'>
-      <h2>{resultTitle}</h2>
+      <h2 className='rTitle'>{resultTitle}</h2>
       <div style={{ alignItems: 'start', gap: '12px' }} className='container flex'>
         <div className='section-title'>
         </div>
@@ -38,7 +38,7 @@ const BookList = () => {
           }
         </div>
         <div style={{ width: '40%' }}>
-          <h1>Authors</h1>
+          <h1 className='authHead'>Authors</h1>
           {
             authors &&
             authors.docs.map((item) => {

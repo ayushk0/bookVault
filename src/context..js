@@ -41,7 +41,7 @@ const AppProvider = ({ children }) => {
                 setBooks(newBooks);
 
                 if (newBooks.length > 1) {
-                    setResultTitle("Your Search Result");
+                    setResultTitle("Books you searched For");
                 } else {
                     setResultTitle("No Search Result Found!")
                 }

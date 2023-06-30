@@ -13,7 +13,7 @@
     transition: var(--transition);
 }
 .book-item:hover{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px 0px;
 }
 .book-item-img img{
     max-width: 180px;
@@ -38,6 +38,15 @@
     opacity: 0.6;
     font-style: italic;
     font-size: 14px;
+}
+
+.authHead{
+    margin-left: 3em;
+}
+
+.rTitle{
+    margin-left: 12rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 600px){
