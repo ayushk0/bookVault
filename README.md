@@ -38,7 +38,7 @@ npm install
 Starting front end
 * Build application
 
-This command will start the mongodb and the front end part.
+This command will start the app.
 ```
 npm start
 ```
